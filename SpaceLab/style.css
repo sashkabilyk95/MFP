@@ -1,0 +1,71 @@
+body{
+	background-image: url(space.jpg);
+	position: relative;
+}
+.orbit-1-wrap{
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: 50px;
+}
+.orbit-2-wrap{
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: 150px;
+}
+.orbit-1{
+	height: 600px;
+	width: 600px;
+	border: 3px solid white;
+	border-radius: 50%;
+	position: relative;
+	animation: spin 5s infinite linear reverse;
+}
+.jupiter{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background-color: purple;
+	position: absolute;
+	left: 25px;
+}
+.orbit-2{
+	height: 400px;
+	width: 400px;
+	border: 3px solid white;
+	border-radius: 50%;
+	position: relative;
+	animation: spin 5s infinite linear;
+}
+.mars{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+	left: 25px;
+}
+.sun{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: yellow;
+	position: absolute;
+	margin: 100px 100px;
+}
+.scale:hover{
+	transition: 1.5s;
+	transform: scale(1.2);
+}
+.orbit-stop:hover{
+    animation-play-state: paused;
+}
+@keyframes spin{
+	from{
+		transform: rotate(0deg)
+	}
+	to{
+		transform: rotate(360deg)
+	}
+}
