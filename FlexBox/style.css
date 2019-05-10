@@ -1,0 +1,124 @@
+body{
+	margin: 20px 60px;
+}
+header{
+	display: flex;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+header div{
+	padding: 10px 10px;
+	background-color: grey;
+	margin: 0 10px;
+}
+h4{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 5px;
+	color: white;
+	font-size: 20px;
+	text-shadow: 2px 2px 2px black;
+}
+.header-section1{
+	flex-grow: 1;
+}
+.header-section2{
+	flex-grow: 3;
+}
+.header-section3{
+	flex-grow: 5;
+	text-align: right;
+	color: white;
+}
+.header-section3 a{
+	color: white;
+}
+.header-section3 div{
+	padding: 20px 10px;
+}
+main{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+main>div{	
+	margin: 0 10px;
+}
+.sidebar{
+	flex-basis: 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.sidebar span{
+}
+.maincontent{
+	flex-basis: 85%;
+}
+.maincontent-box1{
+	padding: 10px 10px;
+	background-color: silver;
+}
+.sidebar div{
+	min-height: 100px;
+	padding: 10px 10px;
+	background-color: grey;
+}
+.maincontent-box2{
+	padding: 0	0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.maincontent-box2 div{
+	padding: 10px 10px;
+	margin-top: 20px;
+	flex-basis: 16.5%;
+	height: 150px;
+	background-color: silver;
+}
+.maincontent-box3{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.maincontent-box3 div{
+	padding: 10px 10px;
+	flex-basis: 47%;
+	background-color: silver;
+}
+.maincontent-box3 span{
+	display: block;
+	padding: 10px 10px;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-list{
+	background-color: grey;
+	flex-basis: 32%;
+}
+footer ul{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+footer li{
+	color: white;
+}
+.footer-doublebox{
+	flex-basis: 32%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.footer-doublebox div{
+	flex-basis: 43%;
+	background-color: grey;
+}
